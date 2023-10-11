@@ -1,0 +1,25 @@
+from winsound import Beep
+
+def CountByThrees():
+    for i in range(6,36, 3):
+        print(i, end = " ")
+        
+CountByThrees()
+print()
+CountByThrees()
+
+print()
+
+
+def ExercizeCheck():
+    minutes = int(input("How many minutes do you exercize for each week?:"))
+    if minutes < 20:
+        print("you do not get enough exercize")
+    elif minutes < 100:
+        print("you get a bit of exercize still not enough but keep up the work")
+    elif minutes < 500:
+        print("thats the perfect amount of exercize keep up the good work")
+    else:
+        print("woah thats a lot of exercize you're getting make sure you stay helathy drink water and eat proteins")
+        
+ExercizeCheck()
